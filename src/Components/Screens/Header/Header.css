@@ -1,0 +1,63 @@
+.header-bar{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(134, 31, 31);
+    padding: 0 auto;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.navbar ul li{
+    margin-right: 15px;
+    list-style: none;
+    text-decoration: none;
+}
+.navbar ul li a{
+    color: #000;
+    font-weight: bold;
+    position: relative;
+}
+.navbar ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition:0.5s;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+
+.signing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+.signing a{
+    color: #000;
+}
+.sign-in{
+    margin: auto;
+}
+
+.sign-up{
+    margin: 0 15px;
+    border: #000 1px solid;
+    border-radius: 5px;
+    padding: 10px 30px;
+}

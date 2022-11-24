@@ -1,0 +1,17 @@
+.skills-head{
+    font-size: 67px;
+    font-weight: 700;
+    width: 80%;
+    margin: 30px auto;
+}
+.container.skills{
+    display: flex;
+    justify-content: space-between;
+}
+.skills-left{
+    max-width: 50%;
+}
+.skills-list-ul{
+    display: flex;
+    justify-content: space-between;
+}

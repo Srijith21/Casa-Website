@@ -1,0 +1,96 @@
+.spotlight{
+    height: 100vh;
+    margin-top: 80px;
+    padding: 0 20px;
+}
+.container.spotlight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 50px; */
+}
+.spotlight-left{
+    width: 40%;
+    position: relative;
+}
+.keyword{
+    position: absolute;
+    top: -35px;
+    left: 10px;
+    color: #8873EF;
+    font-size: 20px;
+    transform: rotate(-22deg);
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+h2.Landinghead{
+    font-size: 67px;
+    font-weight: 600;
+    width: 80%;
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+.landingtext{
+    display: inline-block;
+    font-size: 20px;
+    color: rgba(87, 83, 83, 0.964);
+    margin: 20px 0 20px 30px;
+}
+.spotlight-buttons{
+    margin-top: 40px;
+}
+.talk-button{
+    background-color: #8873EF;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.portfolio-button{
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+.smallicons{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+.socialmedia-icons{
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialicons{
+    margin: 0 15px;
+}
+.spotlight-right{
+    width: 60%;
+    position: relative;
+}
+.landingVector{
+    width: 700px;
+    height: 600px;
+    margin:  auto;
+}
+.play-img{
+    position: absolute;
+    top: 80px;
+    left: 250px;
+    display:block;
+    width: 150px;
+    height: 90%;
+}
+.smallquote{
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    width: 30%;
+    font-size: 20px;
+}
+
