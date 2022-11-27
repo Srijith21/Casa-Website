@@ -1,0 +1,104 @@
+.testimonials{
+    height: 100vh;
+}
+.testimonials-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+    height: 200px;
+}
+.testimonials-top-left{
+    width: 36%;
+    position: relative;
+}
+.testimonials-top-left h3{
+    font-size: 80px;
+    width: 80%;
+
+}
+.keyword.testimonials{
+    position: absolute;
+    font-size: 15px;
+    top: -35px;
+    left: 130px;
+
+}
+.testimonials-top-middle{
+    width: 35%;
+}
+
+.landingtext.kindword{
+    font-size: 15px;
+    color: #556655;
+    line-height: 2rem;
+}
+.testimonials-top-right{
+    width: 15%;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.downarrow{
+    width: 30%;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    border: #556655 1px solid;
+    padding: 10px;
+}
+.arrow-box{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid rgb(29, 2, 2);
+    padding: 10px;
+    height: 50px;
+    border-radius: 35px;
+}
+.arrow-box span{
+    transform: rotate(-25deg);
+}
+.BlackArrow{
+
+}
+.testimonials-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px auto;
+}
+.testimonials-bottom-clientImg{
+    width: 20%;
+    margin: 0 auto;
+}
+.clientImg{
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+.testimonials-bottom-clientDescription{
+    width: 40%;
+    border-top: 3px solid #556655;
+    border-bottom: 3px solid #556655;
+    padding: 30px 10px;
+}
+.testimonials-bottom-clientDescription p{
+    font-size: 18px;
+    color: #556655;
+    line-height: 2rem;
+    margin-bottom: 30px;
+}
+.testimonials-bottom-clientDescription p span{
+    font-size: 18px;
+    font-weight: 700;
+}
+.testimonials-bottom-clientDescription h5{
+    font-size: 20px;
+    margin: 20px auto;
+}
+.testimonials-bottom-clientDescription h6{
+    font-size: 15px;
+    margin: 10px auto;
+    color: #515851;
+    font-weight: 600;
+
+}

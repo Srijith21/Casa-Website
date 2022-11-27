@@ -1,0 +1,86 @@
+.Contact{
+    /* height: 100vh; */
+    background-color: #FCDA69;
+    position: relative;
+}
+.container.contact{
+    display: flex;
+    justify-content: space-between;
+}
+hr{
+    position: absolute;
+    bottom: 70px;
+    height: 1px;
+    width: 80%;
+    margin: 20px 120px;
+    background-color:#000;
+}
+.contact-left{
+    max-width: 50%;
+}
+.contact-head h2{
+    font-size: 50px;
+    width: 50%;
+    margin: 30px auto ; 
+}
+.contact-email{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 40px auto;
+    border-top: 1px solid #000;
+    padding: 30px 20px;
+}
+.contact-img{
+}
+.contact-location{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 40px auto;
+    border-top: 1px solid #000;
+    padding: 30px 20px;
+}
+.contact-subhead{
+    color: #000;
+}
+.contact-label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000;
+}
+.img-box{
+    margin-right: 50px;
+}
+.contact-right{
+    width: 50%;
+}
+.contact-interaction{
+    
+    width: 100%;
+    height: 70%;
+    border: #000 1px solid;
+    border-radius: 50%;
+    border-bottom: 2px solid #000;
+    margin: 50px auto;
+
+}
+.contact-interaction-left{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-interaction-left span{
+    font-size: 25px;
+    font-weight: 600;
+}
+.contentbox{
+    margin: 50% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    border-bottom: #000 1px solid;
+}
+.handwave-img{
+    margin: auto 20px;
+}

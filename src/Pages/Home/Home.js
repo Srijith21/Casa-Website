@@ -4,7 +4,7 @@ import Footer from '../../Components/Screens/Footer/Footer'
 import Header from '../../Components/Screens/Header/Header'
 import KindWords from '../../Components/Screens/KindWords/KindWords'
 import LatestProjects from '../../Components/Screens/LatestProjects/LatestProjects'
-import ProjectDiscuss from '../../Components/Screens/ProjectDiscuss/ProjectDiscuss'
+import Contact from '../../Components/Screens/Contact/Contact'
 import ServiceOffer from '../../Components/Screens/ServiceOffer/ServiceOffer'
 import SpotLight from '../../Components/Screens/SpotLight/SpotLight'
 
@@ -17,7 +17,7 @@ function Home() {
         <Experience/>
         <LatestProjects/>
         <KindWords/>
-        <ProjectDiscuss/>
+        <Contact/>
         <Footer/>
     </div>
   )
