@@ -18,7 +18,7 @@
     margin: auto;
 }
 .navbar ul li{
-    margin-right: 15px;
+    margin:0 15px ;
     list-style: none;
     text-decoration: none;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import Experience from '../../Components/Screens/Experience/Experience'
+import Experience from '../../Components/Screens/ExperienceHome/Experience'
 import Footer from '../../Components/Screens/Footer/Footer'
 import Header from '../../Components/Screens/Header/Header'
 import KindWords from '../../Components/Screens/KindWords/KindWords'

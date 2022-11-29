@@ -18,13 +18,13 @@ function Header() {
                         <Link style={{ textDecoration: 'none' }}>Servie Offer</Link>
                     </li>
                     <li>
-                        <Link style={{ textDecoration: 'none' }}>Experience</Link>
+                        <Link style={{ textDecoration: 'none' }} to='/experience'>Experience</Link>
                     </li>
                     <li>
                         <Link style={{ textDecoration: 'none' }} to='/projects'>Projects</Link>
                     </li>
                     <li>
-                        <Link style={{ textDecoration: 'none'}}>Contact</Link>
+                        <Link style={{ textDecoration: 'none'}} to='/enquiry'>Contact</Link>
                     </li>
                 </ul>
             </div>

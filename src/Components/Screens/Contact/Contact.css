@@ -6,14 +6,16 @@
 .container.contact{
     display: flex;
     justify-content: space-between;
+    
 }
-hr{
+.hr-line{
+    content: "";
     position: absolute;
-    bottom: 70px;
-    height: 1px;
-    width: 80%;
-    margin: 20px 120px;
-    background-color:#000;
+    bottom: 100px;
+    left: 50px;
+    height: 2px;
+    width: 90%;
+    background-color: #201c1c;
 }
 .contact-left{
     max-width: 50%;

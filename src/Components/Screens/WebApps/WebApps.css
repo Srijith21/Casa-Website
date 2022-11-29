@@ -1,0 +1,60 @@
+.WebApps{
+    margin: 50px auto;
+    /* height: 100vh; */
+}
+.container.WebApps{
+    padding: 0 50px;
+}
+
+
+.projects-ul{
+    display: flex;
+    margin: auto;
+}
+.project-li{
+    width: 30%;
+    margin:0 auto;
+    position: relative;
+}
+.li-part{
+    width: 100%;
+    border-top: 1px solid #000;
+    margin: 20px auto;
+    padding: 20px 0;
+}
+.project-smallHead{
+    font-size: 60px;
+}
+.service-seal.project{
+    position: absolute;
+    bottom:100px
+}
+.project-smallHead span{
+    font-size: 60px;
+    color: #FCDA69;
+}
+.topSec-left h3{
+    color: #000;
+    width: 70%;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.topSec-left p{
+    color:#000;
+    width: 70%;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.project-li.middle{
+    margin-top:100px;
+}
+.topSec{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-img{
+    display: block;
+    width: 100%;
+    height: 10%;
+}

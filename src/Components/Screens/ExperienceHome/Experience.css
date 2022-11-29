@@ -61,14 +61,13 @@
 .experience-tab{
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid #696b6c;
+    border-top: 1px solid #848687d4;
     width: 100%;
     margin: auto;
 }
 .time-period{
     width: 30%;
-    margin:  auto ;
-    text-align: center;
+    margin:15px  auto ;
     font-weight: bold;
 }
 .exp-head{
@@ -81,7 +80,7 @@
 }
 .exp-head p{
     font-size: 15px;
-    font-weight: 600;
+    font-weight: 400;
     color: #716e6e;
     margin: 5px auto;
 }

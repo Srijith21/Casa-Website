@@ -1,0 +1,25 @@
+.Project_spotlight{
+    background-color: #FCDA69;
+    max-height: 60vh;
+}
+.container.Project_spotlight{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+}
+.left-spotlight{
+    width: 40%;
+    position: relative;
+}
+.left-spotlight-head{
+    font-size: 65px;
+}
+.keyword.Hello{
+    position: absolute;
+    top: -5 px;
+    left: 5px;
+}
+.landingtext.Project_spotlight{
+    font-size: 18px;
+}

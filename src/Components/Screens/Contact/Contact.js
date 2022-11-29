@@ -45,7 +45,7 @@ function Contact() {
         </div>
       </div>
       </div>
-      <hr />
+      <span className='hr-line'></span>
     </div>
   )
 }

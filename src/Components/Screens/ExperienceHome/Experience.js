@@ -23,7 +23,6 @@ function Experience() {
           <div className="skills-smallhead"><h4>Skills</h4></div>
           <div className="skills-list">
           <ul className='skills-list-ul'>
-            
             <li className="skill-items">
               <img src={visualIcon} alt="" />
               <span>Visual Design</span>
