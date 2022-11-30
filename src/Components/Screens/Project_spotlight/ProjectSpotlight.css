@@ -21,5 +21,37 @@
     left: 5px;
 }
 .landingtext.Project_spotlight{
-    font-size: 18px;
+    font-size: 14px;
+}
+
+/* .......................................................980px responsive........ */
+@media all and (max-width: 980px) {
+    .Project_spotlight{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.Project_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding:50px 10px;
+    }
+    .left-spotlight{
+        width: 60%;
+        position: relative;
+    }
+    .left-spotlight-head{
+        font-size: 30px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+    .text.Project_spotlight{
+        width: 90%;
+    }
+    .landingtext.Project_spotlight{
+        font-size: 13x;
+    }
 }

@@ -9,11 +9,11 @@ import Rectangle12 from "../../../Assets/Rectangle12.jpg"
 
 function DashBoard() {
   return (
-    <div className='WebApps'>
-      <div className="container WebApps">
+    <div className='Dashboard'>
+      <div className="container Dashboard">
         <ul className='projects-ul'>
           <li  className='project-li'>
-            <h2 className='project-smallHead'>Dashboard</h2>
+            <h2 className='project-smallHead Dashboard'>Dashboard</h2>
           </li>
           <li className='project-li middle'>
             <div className="li-part">

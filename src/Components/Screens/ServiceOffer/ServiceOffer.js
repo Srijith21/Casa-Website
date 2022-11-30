@@ -10,9 +10,9 @@ function ServiceOffer() {
       <div className="container service">
         <div className="service-left">
             <h2 className="service-heading">Services | Offer</h2>
-            <div className="text">
+            <div className="text ServiceOffer">
                 <span className='line'>__</span>
-                <p className="landingtext">we help ambitious business like your generate more profites by building awarness,driving web traffic,connecting with customers and growing overall sales</p>
+                <p className="landingtext ServiceOffer">we help ambitious business like your generate more profites by building awarness,driving web traffic,connecting with customers and growing overall sales</p>
                 <img className='service-seal' src={view_all_service_seal} alt="" />
                 <span className="keyword service">Service!</span>
           </div>

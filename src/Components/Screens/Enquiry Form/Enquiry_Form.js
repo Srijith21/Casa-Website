@@ -61,7 +61,6 @@ function EnquiryForm() {
                     </div>
                     <div className="inputBoxes textbox">
                     <label>First Name*</label>
-                        {/* <input type="text" placeholder='Type Here' name='lastname' id='lastname' /> */}
                         <textarea className='selectbox' maxLength={100} id="textarea" placeholder='type here' name="textarea" rows="4" cols="50"></textarea>
                 </div>
                 </div>

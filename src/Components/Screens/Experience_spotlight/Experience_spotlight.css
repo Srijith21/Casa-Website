@@ -20,3 +20,58 @@
     top: -5 px;
     left: 5px;
 }
+
+/* .....................................................980px responsive..........  */
+@media all and (max-width: 980px) {
+    .Experience_spotlight{
+        background-color: #FCDA69;
+        max-height: 60vh;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 10px;
+    }
+    .left-spotlight{
+        width: 60%;
+        position: relative;
+    }
+    .left-spotlight-head{
+        font-size: 55px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+}
+
+/* .....................................................640px responsive..........  */
+@media all and (max-width: 640px) {
+    .Experience_spotlight{
+        background-color: #FCDA69;
+        max-height: 60vh;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: auto;
+    }
+    .left-spotlight{
+        width: 50%;
+        position: relative;
+    }
+    .left-spotlight-head{
+        font-size: 40px;
+    }
+    .landingtext{
+        font-size: 14px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+}

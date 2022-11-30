@@ -10,7 +10,7 @@ function ExperienceSpotlight() {
                 <h2 className='left-spotlight-head'>Skills and Experience</h2>
                 <div className="text">
                   <span className='line'>__</span>
-                  <p className="landingtext">we help ambitious business like your generate more profites by building awarness,driving web traffic,connecting with customers and growing overall sales</p>
+                  <p className="landingtext Experience_spotlight">we help ambitious business like your generate more profites by building awarness,driving web traffic,connecting with customers and growing overall sales</p>
               	</div>
 				  <span className="keyword Hello">Hello!</span>
             </div>

@@ -34,7 +34,7 @@ h2.Landinghead{
     font-family:Verdana, Tahoma, sans-serif;
 }
 .landingtext{
-    display: inline-block;
+    display:block;
     font-size: 20px;
     color: rgba(87, 83, 83, 0.964);
     margin: 20px 0 20px 30px;
@@ -68,6 +68,7 @@ h2.Landinghead{
 }
 .socialicons{
     margin: 0 15px;
+    
 }
 .spotlight-right{
     width: 60%;
@@ -93,4 +94,217 @@ h2.Landinghead{
     width: 30%;
     font-size: 20px;
 }
+/* 
+.....................................................980px responsive.......... */
+@media all and (max-width: 980px) {
+    .spotlight{
+        height: auto;
+        margin-top: 120px;
+        padding: 0 20px;
+    }
+    .container.spotlight{
+        display: block;
+        /* padding: 0 50px; */
+    }
+    .spotlight-left{
+        width: 100%;
+        position: relative;
+    }
+    .keyword{
+        position: absolute;
+        top: -35px;
+        left: 10px;
+        color: #8873EF;
+        font-size: 20px;
+        transform: rotate(-22deg);
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    h2.Landinghead{
+        font-size: 55px;
+        font-weight: 600;
+        width: 80%;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        font-family:Verdana, Tahoma, sans-serif;
+    }
+    .landingtext{
+        display: inline-block;
+        font-size: 20px;
+        color: rgba(87, 83, 83, 0.964);
+        margin: 20px 0 20px 30px;
+    }
+    .spotlight-buttons{
+        margin-top: 40px;
+    }
+    .talk-button{
+        background-color: #8873EF;
+        padding: 20px 30px;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+    .portfolio-button{
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+    .smallicons{
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+    }
+    .socialmedia-icons{
+        width: 100%;
+        margin-top: 30px;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between; */
+    }
+    .socialmedia{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .socialicons{
+        margin: 0 15px;
+        height: 50%;
+        width: 10%;
+    }
+    .spotlight-right{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .landingVector{
+        width: 50%;
+        height: 30%;
+        margin:  auto;
+    }
+    .play-img{
+        position: absolute;
+        top: 80px;
+        left: 89px;
+        display: block;
+        width: 62px;
+        height: 60%;
+    }
+    .smallquote{
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 40%;
+        font-size: 20px;
+    }
 
+}
+
+
+
+
+/* 
+.....................................................360px responsive.......... */
+@media all and (max-width: 360px) {
+    .spotlight{
+        height: auto;
+        margin-top: 120px;
+        padding: 0 20px;
+    }
+    .container.spotlight{
+        display: block;
+        /* padding: 0 50px; */
+    }
+    .spotlight-left{
+        width: 100%;
+        position: relative;
+    }
+    .keyword{
+        position: absolute;
+        top: -35px;
+        left: 10px;
+        color: #8873EF;
+        font-size: 20px;
+        transform: rotate(-22deg);
+        font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+    }
+    h2.Landinghead{
+        font-size: 67px;
+        font-weight: 600;
+        width: 80%;
+    }
+    .text{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px auto;
+        font-family:Verdana, Tahoma, sans-serif;
+    }
+    .landingtext{
+        display: inline-block;
+        font-size: 20px;
+        color: rgba(87, 83, 83, 0.964);
+        margin: 20px 0 20px 30px;
+    }
+    .spotlight-buttons{
+        margin-top: 40px;
+    }
+    .talk-button{
+        background-color: #8873EF;
+        padding: 20px 30px;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+    .portfolio-button{
+        margin-bottom: 40px;
+        font-weight: 600;
+    }
+    .smallicons{
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+    }
+    .socialmedia-icons{
+        width: 100%;
+        margin-top: 30px;
+        /* display: flex;
+        align-items: center;
+        justify-content: space-between; */
+    }
+    .socialmedia{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .socialicons{
+        margin: 0 15px;
+        height: 50%;
+        width: 10%;
+    }
+    .spotlight-right{
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    .landingVector{
+        width: 50%;
+        height: 30%;
+        margin:  auto;
+    }
+    .play-img{
+        position: absolute;
+        top: 80px;
+        left: 89px;
+        display: block;
+        width: 62px;
+        height: 60%;
+    }
+    .smallquote{
+        position: absolute;
+        top: 50px;
+        right: 10px;
+        width: 40%;
+        font-size: 20px;
+    }
+
+}
