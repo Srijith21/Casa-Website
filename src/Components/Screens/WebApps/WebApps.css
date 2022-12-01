@@ -1,6 +1,5 @@
 .WebApps{
     margin: 50px auto;
-    /* height: 100vh; */
 }
 .container.WebApps{
     padding: 0 50px;
@@ -77,6 +76,7 @@
     }
     .project-li{
         width: 30%;
+        display: block;
         margin:0 auto;
         position: relative;
     }
@@ -87,7 +87,7 @@
         padding: 20px 0;
     }
     .project-smallHead{
-        font-size: 40px;
+        font-size: 30px;
     }
     .service-seal.project{
         position: absolute;
@@ -95,6 +95,134 @@
     }
     .project-smallHead span{
         font-size: 40px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 70%;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 70%;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+}
+
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .WebApps{
+        margin: 50px auto;
+    }
+    .container.WebApps{
+        padding: 0 10px;
+    }
+    
+    .projects-ul{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .project-li{
+        width: 30%;
+        display: block;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 30px;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom:100px
+    }
+    .project-smallHead span{
+        font-size: 30px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 70%;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 70%;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+}
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .WebApps{
+        margin: 50px auto;
+    }
+    .container.WebApps{
+        padding: 0 10px;
+    }
+    
+    .projects-ul{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+    }
+    .project-li{
+        width: 30%;
+        display: block;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 30px;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom:100px
+    }
+    .project-smallHead span{
+        font-size: 30px;
         color: #FCDA69;
     }
     .topSec-left h3{

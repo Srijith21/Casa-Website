@@ -9,7 +9,7 @@ function Mobapp() {
     <div className='Mobapp'>
       <div className="container Mobapp">
         <ul className='projects-ul'>
-          <li className='project-li middle'>
+          <li className='project-li'>
             <div className="li-part">
               <div className="topSec">
                 <div className="topSec-left">
@@ -22,7 +22,7 @@ function Mobapp() {
               </div>
               <div className="bottomSec">
                 <div className="imagebox">
-                  <img className='project-img' src={MobApp} alt="" />
+                  <img className='project-img' src={Rectangle12} alt="" />
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@ function Mobapp() {
               </div>
             </div>
           </li>
-          <li className='project-li'>
+          <li className='project-li middle'>
             <div className="li-part">
               <div className="topSec">
                 <div className="topSec-left">
@@ -56,7 +56,7 @@ function Mobapp() {
               </div>
               <div className="bottomSec">
                 <div className="imagebox">
-                  <img className='project-img' src={Rectangle12} alt="" />
+                  <img className='project-img' src={MobApp} alt="" />
                 </div>
               </div>
             </div>

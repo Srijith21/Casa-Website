@@ -75,3 +75,85 @@
         left: 5px;
     }
 }
+
+
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .Experience_spotlight{
+        background-color: #FCDA69;
+        max-height: 60vh;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: auto;
+    }
+    .left-spotlight{
+        width: 50%;
+        position: relative;
+    }
+    .right-spotlight{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-spotlight img{
+        width: 50%;
+        margin: auto;
+    }
+    .left-spotlight-head{
+        font-size: 30px;
+    }
+    .landingtext{
+        font-size: 12px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+}
+
+/* .....................................................320px responsive..........  */
+@media all and (max-width: 320px) {
+    .Experience_spotlight{
+        background-color: #FCDA69;
+        max-height: 60vh;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: auto;
+    }
+    .left-spotlight{
+        width: 50%;
+        position: relative;
+    }
+    .right-spotlight{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-spotlight img{
+        width: 100%;
+        margin: auto;
+    }
+    .left-spotlight-head{
+        font-size: 25px;
+    }
+    .landingtext{
+        font-size: 11px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+}
+
+
+

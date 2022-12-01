@@ -229,6 +229,7 @@
         /* display: flex;
         justify-content: center; */
         text-align: center;
+        font-size: 13px;
     }
     .skills-right{
         width: 100%;
@@ -262,3 +263,189 @@
         margin: 5px auto;
     }
 }
+
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .skills-head{
+        font-size: 40px;
+        font-weight: 600;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .container.skills{
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .text.experience{
+        width: 100%;
+    }
+    .keyword.experience{
+        position: absolute;
+        top: -5px;
+        left: 50px;
+    }
+    .landingtext.experience{
+        font-size: 14px;
+        line-height: 1.3rem;
+    }
+    
+    .skills-smallhead{
+        font-size: 30px;
+        margin: 30px auto;
+    }
+    .skills-left{
+        width: 100%;
+        padding: 50px;
+    }
+    .skills-list-ul{
+        width: 100%;
+        margin: auto;
+    }
+    .skill-items{
+        width: 38%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        width: 50px;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        /* display: flex;
+        justify-content: center; */
+        text-align: center;
+    }
+    .skills-right{
+        width: 100%;
+        padding: 40px 0;
+    }
+    
+    .experience-tab{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #848687d4;
+        width: 100%;
+        margin: auto;
+    }
+    .time-period{
+        width: 25%;
+        margin:15px  auto ;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .exp-head{
+        display: block;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    .exp-head h6{
+        font-size: 20px;
+    }
+    .exp-head p{
+        font-size: 12px;
+        font-weight: 300;
+        color: #716e6e;
+        margin: 5px auto;
+    }
+}
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .skills-head{
+        font-size: 40px;
+        font-weight: 600;
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .container.skills{
+        margin: 50px auto;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+    }
+    .text.experience{
+        width: 100%;
+    }
+    .keyword.experience{
+        position: absolute;
+        top: -25px;
+        left: 50px;
+    }
+    .landingtext.experience{
+        font-size: 10px;
+        line-height: 1.3rem;
+    }
+    
+    .skills-smallhead{
+        font-size: 30px;
+        text-align: center;
+        margin: 30px auto;
+    }
+    .skills-left{
+        /* width: 100%;
+        padding: 50px; */
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 5px;
+    }
+    .skills-list-ul{
+        width: 100%;
+        margin: auto;
+    }
+    .skill-items{
+        width: 30%;
+        margin: 15px auto;
+        text-align: center;
+    }
+    .skill-items img{
+        display: block;
+        width: 50px;
+        margin: 5px  auto;
+    }
+    .skill-items span{
+        /* display: flex;
+        justify-content: center; */
+        text-align: center;
+    }
+    .skills-right{
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .experience-tab{
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid #848687d4;
+        width: 100%;
+        margin: auto;
+    }
+    .time-period{
+        width: 25%;
+        margin:15px  auto ;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .exp-head{
+        display: block;
+        width: 100%;
+        margin: 20px 5px;
+    }
+    .exp-head h6{
+        font-size: 20px;
+    }
+    .exp-head p{
+        font-size: 12px;
+        font-weight: 300;
+        color: #716e6e;
+        margin: 5px auto;
+    }
+}
+
+

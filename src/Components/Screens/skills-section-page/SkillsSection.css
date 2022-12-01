@@ -18,3 +18,38 @@
         margin-bottom: 50px;
     }
 }
+
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .skills-list-ul.SkillsSection{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 5px;
+    }
+    .skill-items{
+        width: 33%;
+    }
+    .skill-items span{
+        font-size: 10px;
+    }
+}
+
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .skills-list-ul.SkillsSection{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 5px;
+    }
+    .skill-items{
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+    .skill-items span{
+        font-size: 10px;
+    }
+}

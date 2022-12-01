@@ -57,7 +57,7 @@ function Footer() {
 						</p>
 						<div className="phonenumber">
 							<img className="CallIcon" src={callIcon} alt="" />
-						<Link to=''><span>( +880 0000 445 760 )</span></Link>
+						<Link to=''><span className='number'>( +880 0000 445 760 )</span></Link>
 
 							
 						</div>

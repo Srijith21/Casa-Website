@@ -55,3 +55,41 @@
         font-size: 13x;
     }
 }
+
+/* .......................................................980px responsive........ */
+@media all and (max-width: 480px) {
+    .Project_spotlight{
+        background-color: #FCDA69;
+    }
+    .container.Experience_spotlight{
+        margin-top: 80px;
+        display: flex;
+        justify-content: space-between;
+        padding: auto;
+    }
+    .left-spotlight{
+        width: 70%;
+        position: relative;
+    }
+    .right-spotlight{
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .right-spotlight img{
+        width: 50%;
+        margin: auto;
+    }
+    .left-spotlight-head{
+        font-size: 30px;
+    }
+    .landingtext.Project_spotlight{
+        font-size: 12px;
+    }
+    .keyword.Hello{
+        position: absolute;
+        top: -5 px;
+        left: 5px;
+    }
+}

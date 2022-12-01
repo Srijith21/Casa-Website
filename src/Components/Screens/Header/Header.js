@@ -7,7 +7,7 @@ function Header() {
     <div className="header-bar">
         {/* <div className="container"> */}
             <div className="logo">
-                <img src={logo} alt="" />
+                <img className='header-logo' src={logo} alt="" />
             </div>
             <div className="navbar">
                 <ul>
@@ -15,7 +15,7 @@ function Header() {
                         <Link style={{ textDecoration: 'none' }} to="/">Home</Link>
                     </li>
                     <li>
-                        <Link style={{ textDecoration: 'none' }}>Servie Offer</Link>
+                        <Link style={{ textDecoration: 'none' }}>Service Offer</Link>
                     </li>
                     <li>
                         <Link style={{ textDecoration: 'none' }} to='/experience'>Experience</Link>

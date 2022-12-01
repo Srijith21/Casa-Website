@@ -13,13 +13,13 @@ function EnquiryForm() {
                 <div className="inputBoxes">
                     <label>First Name*</label>
                     <div className="inputcontainer">
-                        <input type="email" placeholder='Enter ur First Name' name='firstname' id='firstname' />
+                        <input type="email" placeholder='Enter your First Name' name='firstname' id='firstname' />
                     </div>
                 </div>
                 <div className="inputBoxes">
                     <label>Last Name*</label>
                     <div className="inputcontainer">
-                        <input type="text" placeholder='Enter ur Last Name' name='lastname' id='lastname' />
+                        <input type="text" placeholder='Enter your Last Name' name='lastname' id='lastname' />
                     </div>
                 </div>
                 <div className="inputBoxes">
@@ -28,13 +28,13 @@ function EnquiryForm() {
                         <img className='flag' src={indianFlag} alt="" />
                         <img src="" alt="" />
                         <span>+91</span>
-                        <input className='input phone' type="text" placeholder='Enter ur phone number' name='phone' id='phone' />
+                        <input className='input phone' type="text" placeholder='Enter your phone number' name='phone' id='phone' />
                     </div>
                 </div>
                 <div className="inputBoxes">
                     <label>Email Address*</label>
                     <div className="inputcontainer">
-                        <input type="email" placeholder='Enter ur Email Address' name='lastname' id='lastname' />
+                        <input type="email" placeholder='Enter your Email Address' name='lastname' id='lastname' />
                     </div>
                 </div>
                 </div>

@@ -37,8 +37,7 @@ function SpotLight() {
                     <img className="socialicons" src={BehanceIcon} alt="" />
                 </span>
             </div>
-      </div> 
-    
+      </div>
         <div className="spotlight-right">
           <img className="landingVector" src={landing_page_vector} alt="" />
           <img className="play-img" src={play_img} alt="" />
@@ -46,7 +45,6 @@ function SpotLight() {
         </div>
       </div>
     </div>
-   
   )
 }
 

@@ -1,0 +1,205 @@
+/* .....................................................640px responsive..........  */
+@media all and (max-width: 640px) {
+    .Dashboard{
+        margin: 50px auto;
+        /* height: 100vh; */
+    }
+    .container.Dashboard{
+        padding: 0 50px;
+    }
+    
+    
+    .projects-ul{
+        display: flex;
+        margin: auto;
+    }
+    .project-li{
+        width: 30%;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 40px;
+    }
+    .project-smallHead.website{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom:100px
+    }
+    .project-smallHead span{
+        font-size: 40px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 70%;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 70%;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+}
+
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .Dashboard{
+        margin: 50px auto;
+        /* height: 100vh; */
+    }
+    .container.Dashboard{
+        padding: 0 50px;
+    }
+    
+    
+    .projects-ul{
+        display: flex;
+        margin: auto;
+    }
+    .project-li{
+        width: 30%;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 40px;
+    }
+    .project-smallHead.website{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom:100px
+    }
+    .project-smallHead span{
+        font-size: 40px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 70%;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 70%;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+}
+
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .Dashboard{
+        margin: 50px auto;
+        /* height: 100vh; */
+    }
+    .container.Dashboard{
+        padding: 0 50px;
+    }
+    
+    
+    .projects-ul{
+        display: flex;
+        margin: auto;
+    }
+    .project-li{
+        width: 30%;
+        margin:0 auto;
+        position: relative;
+    }
+    .li-part{
+        width: 100%;
+        border-top: 1px solid #000;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+    .project-smallHead{
+        font-size: 30px;
+    }
+    .project-smallHead.website{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .service-seal.project{
+        position: absolute;
+        bottom:100px;
+        width: 75%;
+    }
+    .project-smallHead span{
+        font-size: 30px;
+        color: #FCDA69;
+    }
+    .topSec-left h3{
+        color: #000;
+        width: 90%;
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    .topSec-left p{
+        color:#000;
+        width: 100%;
+        font-size: 9px;
+        margin: 6px 0;
+    }
+    .project-li.middle{
+        margin-top:100px;
+    }
+    .topSec{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .project-img{
+        display: block;
+        width: 100%;
+        height: 10%;
+    }
+}

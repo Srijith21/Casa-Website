@@ -212,8 +212,9 @@
 }
 
 
-/* .....................................................640px responsive..........  */
-@media all and (max-width: 640px) {
+
+/* .....................................................768px responsive..........  */
+@media all and (max-width: 768px) {
     .testimonials{
         height: auto;
     }
@@ -249,6 +250,123 @@
         font-size: 15px;
         color: #556655;
         line-height: 2rem;
+    }
+    .testimonials-top-right{
+        width: 30%;
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .downarrow{
+        width: 30%;
+        height: 50px;
+        display: block;
+        border-radius: 50%;
+        border: #556655 1px solid;
+        padding: 10px;
+    }
+    .arrow-box{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 2px solid rgb(29, 2, 2);
+        padding: 10px;
+        height: 50px;
+        border-radius: 35px;
+    }
+    .arrow-box span{
+        transform: rotate(-25deg);
+        margin: auto 5px;
+    }
+    .BlackArrow{
+        height: 80%;
+        width: 80%;
+        display: block;
+    }
+    .testimonials-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px auto;
+    }
+    .testimonials-bottom-clientImg{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .clientImg{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .testimonials-bottom-clientDescription{
+        width: 100%;
+        border-top: 3px solid #556655;
+        border-bottom: 3px solid #556655;
+        margin: 20px auto;
+        padding: 30px 0;
+    }
+    .testimonials-bottom-clientDescription p{
+        font-size: 15px;
+        color: #556655;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+    .testimonials-bottom-clientDescription p span{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .testimonials-bottom-clientDescription h5{
+        font-size: 16px;
+        margin: 17px auto;
+    }
+    .testimonials-bottom-clientDescription h6{
+        font-size: 15px;
+        margin: 8px auto;
+        color: #515851;
+        font-weight: 500;
+    
+    }
+}
+
+
+/* .....................................................640px responsive..........  */
+@media all and (max-width: 640px) {
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-top{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        height: auto;
+
+    }
+    .testimonials-top-left{
+        width: 80%;
+        margin: auto;
+        position: relative;
+    }
+    .testimonials-top-left h3{
+        font-size: 40px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .keyword.testimonials{
+        position: absolute;
+        font-size: 13px;
+        top: -25px;
+        left: 100px;
+    
+    }
+    .testimonials-top-middle{
+        width: 60%;
+    }
+    
+    .landingtext.kindword{
+        font-size: 14px;
+        color: #556655;
+        line-height: 1.5rem;
     }
     .testimonials-top-right{
         width: 30%;
@@ -316,6 +434,236 @@
     }
     .testimonials-bottom-clientDescription h6{
         font-size: 15px;
+        margin: 8px auto;
+        color: #515851;
+        font-weight: 500;
+    
+    }
+}
+
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-top{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        height: auto;
+
+    }
+    .testimonials-top-left{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .testimonials-top-left h3{
+        font-size: 40px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .keyword.testimonials{
+        position: absolute;
+        font-size: 12px;
+        top: -25px;
+        left: 100px;
+    
+    }
+    .testimonials-top-middle{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .landingtext.kindword{
+        font-size: 15px;
+        color: #556655;
+        line-height: 2rem;
+    }
+    .testimonials-top-right{
+        width: 50%;
+        margin: auto;;
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .downarrow{
+        width: 30%;
+        height: 50px;
+        display: block;
+        border-radius: 50%;
+        border: #556655 1px solid;
+        padding: 10px;
+    }
+    .arrow-box{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(29, 2, 2);
+        padding: 10px;
+        height: 50px;
+        border-radius: 35px;
+    }
+    .arrow-box span{
+        transform: rotate(-25deg);
+    }
+    .BlackArrow{
+    
+    }
+    .testimonials-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px auto;
+    }
+    .testimonials-bottom-clientImg{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .clientImg{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .testimonials-bottom-clientDescription{
+        width: 100%;
+        border-top: 3px solid #556655;
+        border-bottom: 3px solid #556655;
+        margin: 20px auto;
+        padding: 30px 0;
+    }
+    .testimonials-bottom-clientDescription p{
+        font-size: 13px;
+        color: #556655;
+        line-height: 2rem;
+        margin-bottom: 30px;
+    }
+    .testimonials-bottom-clientDescription p span{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .testimonials-bottom-clientDescription h5{
+        font-size: 13px;
+        margin: 17px auto;
+    }
+    .testimonials-bottom-clientDescription h6{
+        font-size: 13px;
+        margin: 8px auto;
+        color: #515851;
+        font-weight: 500;
+    
+    }
+}
+
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .testimonials{
+        height: auto;
+    }
+    .testimonials-top{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 50px auto;
+        height: auto;
+
+    }
+    .testimonials-top-left{
+        width: 90%;
+        margin: auto;
+        position: relative;
+    }
+    .testimonials-top-left h3{
+        font-size: 30px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .keyword.testimonials{
+        position: absolute;
+        font-size: 12px;
+        top: -25px;
+        left: 100px;
+    
+    }
+    .testimonials-top-middle{
+        width: 90%;
+        margin: auto;
+    }
+    
+    .landingtext.kindword{
+        font-size: 11px;
+        color: #556655;
+        line-height: 1rem;
+    }
+    .testimonials-top-right{
+        width: 50%;
+        margin: auto;;
+        display:flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+    .downarrow{
+        width: 30%;
+        height: 40px;
+        display: block;
+        border-radius: 50%;
+        border: #556655 1px solid;
+        padding: 10px;
+    }
+    .arrow-box{
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        border: 2px solid rgb(29, 2, 2);
+        padding: 10px;
+        height: 40px;
+        border-radius: 35px;
+    }
+    .arrow-box span{
+        transform: rotate(-25deg);
+        font-size: 12px;
+    }
+    .BlackArrow{
+    
+    }
+    .testimonials-bottom{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 80px auto;
+    }
+    .testimonials-bottom-clientImg{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .clientImg{
+        width: 100%;
+        margin: 0 auto;
+        height: 100%;
+    }
+    .testimonials-bottom-clientDescription{
+        width: 100%;
+        border-top: 3px solid #556655;
+        border-bottom: 3px solid #556655;
+        margin: 20px auto;
+        padding: 30px 0;
+    }
+    .testimonials-bottom-clientDescription p{
+        font-size: 12px;
+        color: #556655;
+        line-height: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .testimonials-bottom-clientDescription p span{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .testimonials-bottom-clientDescription h5{
+        font-size: 13px;
+        margin: 17px auto;
+    }
+    .testimonials-bottom-clientDescription h6{
+        font-size: 13px;
         margin: 8px auto;
         color: #515851;
         font-weight: 500;

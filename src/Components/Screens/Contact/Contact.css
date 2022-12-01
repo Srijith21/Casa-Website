@@ -185,6 +185,103 @@
 }
 
 
+/* .....................................................768px responsive..........  */
+@media all and (max-width: 768px) {
+    .Contact{
+        height: auto;
+        background-color: #FCDA69;
+        position: relative;
+    }
+    .container.contact{
+        /* display: flex;
+        justify-content: space-between; */
+        display: block;
+        
+    }
+    .hr-line{
+        content: "";    
+        position: absolute;
+        bottom: 100px;
+        left: 50px;
+        height: 2px;
+        width: 90%;
+        background-color: #201c1c;
+    }
+    .contact-left{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .contact-head h2{
+        font-size: 40px;
+        width: 90%;
+        margin: 30px auto ; 
+    }
+    .contact-email{
+        display: flex;  
+        align-items: center;
+        width: 80%;
+        margin: 10px auto;
+        border-top: 1px solid #000;
+        padding: 25px 15px;
+    }
+    .contact-img{
+    }
+    .contact-location{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 10px auto;
+        border-top: 1px solid #000;
+        padding: 25px 15px;
+    }
+    .contact-subhead{
+        color: #000;
+        margin: 20px 0;
+    }
+    .contact-label{
+        font-size: 20px;
+        font-weight: 400;
+        color: #000;
+    }
+    .img-box{
+        margin-right: 50px;
+    }
+    .contact-right{
+        width: 80%;
+        margin:30px auto;
+        padding-bottom: 100px ;
+    }
+    .contact-interaction{
+        
+        width: 100%;
+        height: 90%;
+        border: #000 1px solid;
+        border-radius: 50%;
+        border-bottom: 2px solid #000;
+        margin: 50px auto;
+    
+    }
+    .contact-interaction-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-interaction-left span{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .contentbox{
+        margin: 50% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        border-bottom: #000 1px solid;
+    }
+    .handwave-img{
+        margin: auto 20px;
+    }
+}
+
 
 /* .....................................................640px responsive..........  */
 @media all and (max-width: 640px) {
@@ -260,6 +357,201 @@
         border-radius: 50%;
         border-bottom: 2px solid #000;
         margin: 50px auto;
+    
+    }
+    .contact-interaction-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-interaction-left span{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .contentbox{
+        margin: 50% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        border-bottom: #000 1px solid;
+    }
+    .handwave-img{
+        margin: auto 20px;
+    }
+}
+
+/* .....................................................480px responsive..........  */
+@media all and (max-width: 480px) {
+    .Contact{
+        height: auto;
+        background-color: #FCDA69;
+        position: relative;
+    }
+    .container.contact{
+        /* display: flex;
+        justify-content: space-between; */
+        display: block;
+        
+    }
+    .hr-line{
+        content: "";  
+        height: 1px;
+        width: 80%;
+        margin:0 auto;
+        background-color: #201c1c;
+    }
+    .contact-left{
+        width: 100%;
+        padding: 10px 0;
+    }
+    .contact-head h2{
+        font-size: 30px;
+        width: 90%;
+        margin: 40px auto ; 
+    }
+    .contact-email{
+        display: flex;  
+        align-items: center;
+        width: 80%;
+        margin: 10px auto;
+        border-top: 1px solid #000;
+        padding: 25px 15px;
+    }
+    .contact-img{
+        width: 60px;
+        height: 60px;
+        display: block;
+    }
+    .contact-location{
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 10px auto;
+        border-top: 1px solid #000;
+        padding: 25px 15px;
+    }
+    .contact-subhead{
+        color: #000;
+        margin: 20px 0;
+    }
+    .contact-label{
+        font-size: 15px;
+        font-weight: 400;
+        color: #000;
+    }
+    .img-box{
+        margin-right: 20px;
+    }
+    .contact-right{
+        width: 90%;
+        margin:30px auto;
+        padding-bottom: 100px ;
+    }
+    .contact-interaction{
+        
+        width: 100%;
+        height: 90%;
+        border: #000 1px solid;
+        border-radius: 50%;
+        margin: 50px auto;
+    
+    }
+    .contact-interaction-left{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact-interaction-left span{
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .contentbox{
+        margin: 50% auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 60%;
+        border-bottom: #000 1px solid;
+    }
+    .handwave-img{
+        margin: auto 20px;
+    }
+}
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .Contact{
+        height: auto;
+        background-color: #FCDA69;
+        position: relative;
+    }
+    .container.contact{
+        /* display: flex;
+        justify-content: space-between; */
+        display: block;
+        
+    }
+    .hr-line{
+        content: "";  
+        height: 1px;
+        width: 75%;
+        margin:0 auto;
+        background-color: #201c1c;
+    }
+    .contact-left{
+        width: 100%;
+        padding: 50px 0;
+    }
+    .contact-head h2{
+        font-size: 30px;
+        width: 90%;
+        margin: 40px auto ; 
+    }
+    .contact-email{
+        display: flex;  
+        align-items: center;
+        width: 100%;
+        margin: 10px auto;
+        border-top: 1px solid #000;
+        padding: 25px 15px;
+    }
+    .contact-img{
+        width: 60px;
+        height: 60px;
+        display: block;
+    }
+    .contact-location{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin: 10px auto;
+        border-top: 1px solid #000;
+        padding: 25px 15px;
+    }
+    .contact-subhead{
+        color: #000;
+        margin: 20px 0;
+    }
+    .contact-label{
+        font-size: 14px;
+        font-weight: 500;
+        color: #000;
+        margin: 5px 0;
+    }
+    .img-box{
+        margin-right: 20px;
+    }
+    .contact-right{
+        width: 90%;
+        margin:15px auto;
+        padding-bottom: 100px ;
+    }
+    .contact-interaction{
+        
+        width: 100%;
+        height: 90%;
+        border: #000 1px solid;
+        border-radius: 50%;
+        margin: 0 auto 40px;
     
     }
     .contact-interaction-left{

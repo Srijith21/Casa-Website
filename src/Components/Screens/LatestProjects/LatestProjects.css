@@ -127,6 +127,73 @@
 }
 
 
+/* .....................................................768px responsive..........  */
+@media all and (max-width: 768px) {
+    .latest-projects{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.projects{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 80px 30px;
+        position: relative;
+    }
+    .project-bar{
+        width: 80%;
+        margin: 0 auto;
+        padding: auto 20px;
+        
+    }
+    .project-bar.one h2{
+        font-size: 40px;
+        font-weight: bold;
+        width: 100%;
+        margin:10px auto;
+    }
+    .project-bar.two{
+        margin-top: 5%;
+    
+    }
+    .details-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .details-top-content{
+        width: 70%;
+    }
+    
+    
+    .arrow-icon.project{
+        width: auto;
+        margin: 20px 0;
+    }
+    .details-top-content h5{
+        font-size: 25px;
+        margin: 10px auto;
+    }
+    .details-top-content p{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 10px auto;
+    }
+    .project-details{
+        border-top: 1px solid #555;
+    }
+    .project-detail-img{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .project-seal{
+        width: 15%;
+        height: 15%;
+        position: absolute;
+        right: -8px;
+        bottom: 35px;
+    }
+}
+
 /* .....................................................640px responsive..........  */
 @media all and (max-width: 640px) {
     .latest-projects{
@@ -170,7 +237,75 @@
     }
     .details-top-content h5{
         font-size: 25px;
+        margin: 20px auto;
+    }
+    .details-top-content p{
+        font-size: 15px;
+        font-weight: 600;
         margin: 10px auto;
+    }
+    .project-details{
+        border-top: 1px solid #555;
+    }
+    .project-detail-img{
+        display: block;
+        width: 100%;
+        height: 50%;
+    }
+    .project-seal{
+        width: 15%;
+        height: 15%;
+        position: absolute;
+        right: -8px;
+        bottom: 35px;
+    }
+}
+
+
+/* .....................................................360px responsive..........  */
+@media all and (max-width: 360px) {
+    .latest-projects{
+        background-color: #FCDA69;
+        height: auto;
+    }
+    .container.projects{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px 30px;
+        position: relative;
+    }
+    .project-bar{
+        width: 80%;
+        margin: 0 auto;
+        padding: auto 20px;
+        
+    }
+    .project-bar.one h2{
+        font-size: 45px;
+        font-weight: bold;
+        width: 100%;
+        margin:10px auto;
+    }
+    .project-bar.two{
+        margin-top: 5%;
+    
+    }
+    .details-top{
+        display: flex;
+        justify-content: space-between;
+    }
+    .details-top-content{
+        width: 70%;
+    }
+    
+    
+    .arrow-icon.project{
+        width: auto;
+        margin: 20px 0;
+    }
+    .details-top-content h5{
+        font-size: 20px;
+        margin: 20px auto;
     }
     .details-top-content p{
         font-size: 15px;

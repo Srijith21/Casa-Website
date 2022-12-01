@@ -10,40 +10,6 @@ function Websites() {
     <div className='Mobapp'>
       <div className="container Mobapp">
         <ul className='projects-ul'>
-          <li className='project-li middle'>
-            <div className="li-part">
-              <div className="topSec">
-                <div className="topSec-left">
-                  <h3>VPS Hosting Web Design</h3>
-                  <p>web/loading page</p>
-                </div>
-                <div className="topSec-right">
-                <span className="arrow-container"><img className='arrow-icon' src={arrow} alt="" /></span>
-                </div>
-              </div>
-              <div className="bottomSec">
-                <div className="imagebox">
-                  <img className='project-img' src={vps3} alt="" />
-                </div>
-              </div>
-            </div>
-            <div className="li-part">
-              <div className="topSec">
-                <div className="topSec-left">
-                  <h3>VPS Hosting Web Design</h3>
-                  <p>web/loading page</p>
-                </div>
-                <div className="topSec-right">
-                <span className="arrow-container"><img className='arrow-icon' src={arrow} alt="" /></span>
-                </div>
-              </div>
-              <div className="bottomSec">
-                <div className="imagebox">
-                  <img className='project-img' src={loadingPage} alt="" />
-                </div>
-              </div>
-            </div>
-          </li>
           <li className='project-li'>
             <div className="li-part">
               <div className="topSec">
@@ -78,8 +44,43 @@ function Websites() {
               </div>
             </div>
           </li>
+          
+          <li className='project-li middle'>
+            <div className="li-part">
+              <div className="topSec">
+                <div className="topSec-left">
+                  <h3>VPS Hosting Web Design</h3>
+                  <p>web/loading page</p>
+                </div>
+                <div className="topSec-right">
+                <span className="arrow-container"><img className='arrow-icon' src={arrow} alt="" /></span>
+                </div>
+              </div>
+              <div className="bottomSec">
+                <div className="imagebox">
+                  <img className='project-img' src={vps3} alt="" />
+                </div>
+              </div>
+            </div>
+            <div className="li-part">
+              <div className="topSec">
+                <div className="topSec-left">
+                  <h3>VPS Hosting Web Design</h3>
+                  <p>web/loading page</p>
+                </div>
+                <div className="topSec-right">
+                <span className="arrow-container"><img className='arrow-icon' src={arrow} alt="" /></span>
+                </div>
+              </div>
+              <div className="bottomSec">
+                <div className="imagebox">
+                  <img className='project-img' src={loadingPage} alt="" />
+                </div>
+              </div>
+            </div>
+          </li>
           <li  className='project-li'>
-            <h2 className='project-smallHead'>Websites</h2>
+            <h2 className='project-smallHead website'>Websites</h2>
           </li>
         </ul>
       </div>
